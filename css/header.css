@@ -1,0 +1,50 @@
+@import "./style.css";
+
+.header{
+    background-color: #000D1F;
+    min-width: 1400px;
+    height: 80px;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 239px 396px;
+    grid-template-rows: 80px;
+    gap: 535px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-family: var(--font-montserat);
+    font-size: 28.5px;
+    font-weight: var(--font-normal);
+    line-height: 37px;
+    color: var(--white);
+    padding-left: 74px;
+}
+
+.logo::before{
+ content: "";
+border-left: 0.88px solid var(--yellow); /* Колір та стиль лінії */
+margin-right: 9px;
+}
+
+.navigator-list{
+    display: grid;
+    grid-template-columns: repeat(5, 35px) 71px;
+    gap: 30px;
+}
+
+.navigation-item{
+font-size: var(--basic-size);
+font-weight: var(--font-normal);
+line-height: var(--basic-line);
+color:var(--white);
+font-family: var(--font-basis);
+}
+
+.navigation-item:hover,
+.navigation-item:focus{
+color: var(--yellow);
+}

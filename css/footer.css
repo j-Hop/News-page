@@ -1,0 +1,128 @@
+@import "./style.css";
+
+.footer{
+    background-color: #000D1F;
+    min-width: 1400px;
+    height: 296px;
+}
+
+.footer-logo{
+    font-family: var(--font-basis);
+    font-weight: var(--font-normal);
+    font-size: var(--basic-size);
+    line-height: var(--basic-line);
+    color: var(--white);
+    max-width: 264px;
+    white-space: pre-line;
+    margin-bottom: 79px;
+}
+
+.first-footer{
+    padding-left: 116px;
+    padding-top: 48px;
+}
+
+.privacy{
+    font-family: var(--font-basis);
+    font-weight: var(--font-regular);
+    font-size:var(--basic-size);
+    line-height: var(--basic-line);
+    color: var(--white);
+    max-width: 227px;
+}
+
+.privacy:focus,
+.privacy:hover{
+color: var(--yellow);
+}
+
+.footer-paragraph-one{
+    font-family: var(--font-basis);
+    font-weight: var(--font-regular);
+    font-size:var(--basic-size);
+    line-height: var(--basic-line);
+    color: var(--white);
+    width: 227px;
+}
+
+.footer-paragraph-one:focus,
+.footer-paragraph-one:hover{
+color: var(--yellow);
+}
+
+.footer-paragraph-two{
+    font-family: var(--font-basis);
+    font-weight: var(--font-regular);
+    font-size:var(--basic-size);
+    line-height: var(--basic-line);
+    color: var(--white);
+    width: 227px;
+}
+
+.footer-paragraph-two:focus,
+.footer-paragraph-two:hover{
+color: var(--yellow);
+}
+
+.nav-container-first{
+    max-width: 268px;
+    max-height: 143px;
+}
+
+.container-footer{
+    display: grid;
+    grid-template-columns: 384px 401px 500px;
+}
+
+.place{
+    color: var(--white);
+    margin-bottom: 82px;
+    font-size:var(--basic-size);
+    font-weight: var(--font-normal);
+    font-family: var(--font-basis);
+    line-height: var(--basic-line);
+}
+
+.phone{
+    font-size:var(--basic-size);
+    font-weight: var(--font-normal);
+    font-family: var(--font-basis);
+    line-height: var(--basic-line);
+    color:var(--white);
+}
+
+.email{
+    font-size: var(--basic-size);
+    font-weight: var(--font-normal);
+    font-family: var(--font-basis);
+    line-height: var(--basic-line);
+    color:var(--white);
+}
+
+.phone:focus,
+.phone:hover,
+.email:focus,
+.email:hover{
+color: var(--yellow);
+}
+
+.fo-logo{
+    color:var(--white);
+    font-family: var(--font-montserat);
+    font-weight: var(--font-normal);
+    font-size: 48.05px;
+    line-height: 62.5px;
+    padding-top: 122px;
+    padding-left: 190px;
+}
+
+.fo-logo::before{
+    content: "";
+   border-left: 1.48px solid var(--yellow); /* Колір та стиль лінії */
+   margin-right: 17px;
+   }
+
+.second-footer{
+    padding-left: 131px;
+    padding-top: 48px;
+}

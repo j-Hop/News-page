@@ -1,0 +1,134 @@
+@import "./style.css";
+
+.main{
+background-color:rgb(195 212 235);
+padding: 40px 115px 44px 120px;
+display: grid;
+grid-template-columns: 670px 470px;
+gap: 25px;
+min-width: 1440px;
+}
+
+/*******************FIRST-SECTION****************/
+
+.one-place-list{
+    grid-template-columns: 111px 111px 59px 50px;
+    display: grid;
+    gap: 2px;
+    padding: 0px 30px;
+}
+
+.one-place{
+    width: 670px;
+    display: grid;
+    grid-template-rows: 21px 141px 446.5px 756px;
+    padding: 30px 0px; 
+    background-color: var(--white);
+    gap: 24px;
+}
+
+.basic{
+    color: rgb(167, 178, 192);
+    font-weight: var(--font-normal);
+    font-family: var(--font-basis);
+    font-size: var(--normal-size);
+}
+
+.bit{
+    margin-left: 2px;
+}
+
+.info-div{
+    display: grid;
+    gap: 16px;
+    padding: 0px 30px;
+}
+
+.info-title{
+    color: var(--blue);
+    font-weight: var(--font-bold);
+    font-family: var(--font-basis);
+    font-size: var(--big-size);
+}
+
+.data{
+    color: rgb(80, 115, 159);
+    font-weight: var(--font-normal);
+    font-family: var(--font-basis);
+    font-size: var(--basic-size);
+}
+
+.maker{
+    color: var(--blue);
+    font-weight: 600;
+    font-family: var(--font-basis);
+    font-size: var(--normal-size);
+}
+
+.one-place-paragraph{
+    color: var(--blue);
+    font-weight: var(--font-normal);
+    font-family: var(--font-basis);
+    font-size: var(--normal-size);
+    padding: 0px 30px;
+}
+
+.text-list{
+    display: grid;
+    gap: 24px;
+}
+
+/*******************SECONS-SECTION****************/
+
+.two-place{
+    background-color: var(--white);
+    padding: 30px 30px 67px 30px;
+    width: 470px;
+}
+
+.line{
+    display: grid;
+    grid-template-columns: 140px 245px;
+    gap: 25px;
+}
+
+.line.style::after{
+    content: "";
+    border: 1px solid rgb(230, 233, 238);;
+    width: 410px;
+    height: 0px;
+}
+
+.list-two{
+    padding: var(--line-padding);
+}
+
+.image{
+    padding: var(--line-padding);
+}
+
+.two-title{
+    font-weight: var(--font-bold);
+    font-family: var(--font-basis);
+    font-size: var(--big-size);
+    line-height: 39px;
+    color: var(--blue);
+}
+
+.two-basic{
+font-family: var(--font-roboto);
+font-weight: var(--font-regular);
+font-size: var(--normal-size);
+line-height: 21px;
+color: rgb(26, 26, 26);
+margin-bottom: 8px;
+}
+
+.two-paragraph{
+    font-family: var(--font-roboto);
+font-weight: var(--font-normal);
+font-size: 13px;
+line-height: 15px;
+color: rgba(9, 9, 32, 0.7);
+margin-bottom: 8px;
+}
